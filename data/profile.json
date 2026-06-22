@@ -1,0 +1,159 @@
+{
+  "name": {
+    "first": "Muhammad",
+    "last": "Younus",
+    "full": "Muhammad Younus"
+  },
+  "email": "younusdev981@gmail.com",
+  "phone": "+92-3267073002",
+  "tagline": "Building cinematic digital experiences with modern web technologies & DevOps.",
+  "description": "Building cinematic digital experiences, scalable systems, and DevOps solutions with modern web technologies.",
+  "roles": {
+    "short": "Full Stack + DevOps",
+    "detailed": "Full-Stack & DevOps Engineer · MERN · Laravel"
+  },
+  "location": {
+    "based": "Pakistan",
+    "availability": "Worldwide"
+  },
+  "available": true,
+  "bio": "Full Stack + DevOps Engineer with 4+ years of experience building scalable web applications and CI/CD pipelines using MERN, Next.js, Laravel, and modern DevOps tools. Specialized in cloud infrastructure, containerization, microservices, and production ready architectures with a strong focus on automation, scalability, and clean system design. Experienced across the full stack from frontend architecture to server orchestration, Docker containers, Redis caching, and automated deployment pipelines.",
+  "stats": [
+    { "value": "4+",  "label": "Years Experience" },
+    { "value": "20+", "label": "Projects Completed" },
+    { "value": "3",   "label": "Companies" }
+  ],
+  "skills": [
+    "Full Stack Engineer",
+    "DevOps Engineer",
+    "Problem Solver",
+    "System Designer",
+    "MERN Stack",
+    "Next.js Dev",
+    "Laravel Dev",
+    "AWS Cloud",
+    "Kubernetes",
+    "Docker",
+    "CI/CD Pipelines",
+    "Linux & Nginx",
+    "GitHub Actions",
+    "Jenkins",
+    "API Architect"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "Full Stack DevOps Engineer",
+      "company": "Motion Wizz (UK)",
+      "companyShort": "MOTION WIZZ",
+      "type": "Contract",
+      "location": "UK (Remote)",
+      "period": "Nov 2023",
+      "periodEnd": "Jan 2024",
+      "bullets": [
+        "Implemented containerized environments using Docker and optimized deployment workflows, cutting local setup time by 35% and improving developer onboarding productivity.",
+        "Designed and configured robust CI/CD pipelines for automated application releases, reducing pipeline execution latency by 25% and cutting build failure rates.",
+        "Developed and deployed an AI Task Manager built with the MERN stack; containerized using Docker and hosted on AWS with secure automated pipelines."
+      ],
+      "desc": "Implemented Docker containerization and automated CI/CD deployment pipelines for high-performance applications, reducing setup times 35% and securing a 99.9% release success rate with remote UK engineering teams.",
+      "tech": ["React", "Next.js", "Node.js", "Laravel", "Docker", "Kubernetes", "GitHub", "AWS"]
+    },
+    {
+      "id": 2,
+      "role": "Full Stack DevOps Engineer",
+      "company": "Ruby Zoom Solutions",
+      "companyShort": "RUBY ZOOM",
+      "type": "Full-time",
+      "location": "Pakistan (On-site)",
+      "period": "Feb 2024",
+      "periodEnd": "Mar 2025",
+      "bullets": [
+        "Designed and implemented Docker container environments and automated staging-to-production deployment pipelines for complex Laravel systems, boosting deployment efficiency by 30%.",
+        "Engineered and deployed an AI-based Gym Management System built with Laravel; hosted the platform on AWS EC2/RDS with optimized Nginx configurations.",
+        "Re-architected cloud infrastructure security and resource distribution, successfully reducing monthly hosting costs by 20% while sustaining zero service downtime."
+      ],
+      "desc": "Orchestrated Docker environments and custom Laravel deployment pipelines. Managed Linux/Nginx infrastructure, improving server response times by 40% and cutting hosting costs by 20% with zero downtime.",
+      "tech": ["React", "Next.js", "Node.js", "Laravel", "Docker", "Kubernetes", "GitHub", "AWS"]
+    },
+    {
+      "id": 3,
+      "role": "Full Stack DevOps Engineer",
+      "company": "Genwizz Solutions",
+      "companyShort": "GENWIZZ",
+      "type": "Full-time",
+      "location": "Pakistan (On-site)",
+      "period": "May 2025",
+      "periodEnd": "Jun 2026",
+      "bullets": [
+        "Architected highly available, auto-scaled AWS/Kubernetes infrastructure (EKS) maintaining 99.99% system uptime.",
+        "Designed and deployed a high-throughput MERN-based Data Scraper on AWS, orchestrating distributed worker nodes to process large-scale datasets.",
+        "Configured centralized ELK/Grafana log aggregations, reducing mean time to detect (MTTD) production anomalies by 60%."
+      ],
+      "desc": "Architected auto-scaled AWS infrastructure and Kubernetes clusters ensuring 99.99% uptime. Automated CI/CD deployments reducing pipeline speeds by 40%.",
+      "tech": ["React", "Next.js", "Node.js", "Laravel", "Docker", "Kubernetes", "GitHub", "AWS"]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "ArtGenio",
+      "subtitle": "AI Prompt Marketplace & Creator Platform",
+      "type": "SaaS",
+      "link": "https://artgenio.com/",
+      "image": "/assets/project-artgenio.png",
+      "tech": ["Next.js", "MongoDB", "NextAuth", "Google Gemini API", "Razorpay", "PayPal"],
+      "desc": "Full-scale AI-powered marketplace for influencers and businesses. Features a subscription-based Creator Hub with 6 AI tools,Payment integration support for both international and domestic payments, scalable backend with MongoDB, and a complete admin dashboard for managing users, prompts, and analytics."
+    },
+    {
+      "id": 2,
+      "title": "EasyFolio",
+      "subtitle": "Multi-User Portfolio Platform",
+      "type": "Platform",
+      "link": "https://easyfolio.wuwb.in",
+      "image": "/assets/project-easyfolio.png",
+      "tech": ["Next.js", "TypeScript", "Drizzle ORM", "Turso (libSQL)", "NextAuth", "Cloudinary"],
+      "desc": "Full-stack multi-user portfolio platform enabling dynamic, database-driven portfolios with multiple themes. Role-based admin system, real-time content editing, PDF CV parsing, portfolio completion tracking."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Building a Real-Time Multiplayer Tic Tac Toe with Next.js & Socket.IO",
+      "platform": "Medium",
+      "year": "2026",
+      "link": "https://medium.com/@muhammadyounus/building-a-real-time-multiplayer-tic-tac-toe-with-next-js-socket-io-open-source-fc0804a940a5",
+      "desc": "Deep dive into building a real-time multiplayer game using WebSockets and a server-authoritative architecture. Covers room-based communication, state synchronization, and handling real-time events using Socket.IO."
+    },
+    {
+      "id": 2,
+      "title": "Optimizing Node.js Performance with Clustering",
+      "platform": "Medium",
+      "year": "2025",
+      "link": "https://medium.com/@muhammadyounus/optimizing-node-js-performance-with-clustering-88e5a9651c9b",
+      "desc": "Explains how to improve Node.js performance using clustering to utilize multi-core systems. Covers process management, scaling strategies, and performance optimization techniques."
+    },
+    {
+      "id": 3,
+      "title": "Stripe Subscriptions Simplified with React & Node.js",
+      "platform": "Medium",
+      "year": "2024",
+      "link": "https://medium.com/@muhammadyounus/stripe-subscriptions-simplified-boosting-revenue-with-react-and-node-js-c3467169b5d7",
+      "desc": "Guide to implementing subscription-based payment systems with Stripe. Covers billing flows, recurring payments, and integration with full-stack applications."
+    },
+    {
+      "id": 4,
+      "title": "Building Scalable Laravel Applications with Docker",
+      "platform": "Medium",
+      "year": "2026",
+      "link": "https://medium.com/@muhammadyounus/building-scalable-laravel-applications-with-docker-197ad615f4d3",
+      "desc": "Explains how to containerize Laravel applications using Docker for consistent local development and production deployments. Covers multi-stage builds and optimization."
+    }
+  ],
+  "socials": [
+    { "label": "GitHub",    "href": "https://github.com/YounusMahr" },
+    { "label": "LinkedIn",  "href": "https://www.linkedin.com/in/younus-web-developer/" },
+    { "label": "Medium",    "href": "https://medium.com/@muhammadyounus" },
+    { "label": "Instagram", "href": "https://www.instagram.com/younus.create" },
+    { "label": "YouTube",   "href": "https://www.youtube.com/@younus.create" }
+  ]
+}
