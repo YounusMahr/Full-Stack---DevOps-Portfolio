@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, Fragment } from 'react'
+import { useEffect, useRef, useState, Fragment } from 'react'
 import Image from 'next/image'
 import * as THREE from 'three'
 import { gsap } from '@/lib/gsap'
@@ -77,6 +77,8 @@ function easeInOut(t) {
 }
 
 export default function PublicationsFooterSection() {
+  const [greeting, setGreeting] = useState('Good morning')
+
   const wrapperRef = useRef(null)
   const stickyRef  = useRef(null)
 
@@ -95,6 +97,10 @@ export default function PublicationsFooterSection() {
   const rightRef        = useRef(null)
   const bigNameRef      = useRef(null)
   const bottomBarRef    = useRef(null)
+
+  useEffect(() => {
+    setGreeting(getGreeting())
+  }, [])
 
   useEffect(() => {
     const wrapper       = wrapperRef.current
@@ -392,7 +398,7 @@ export default function PublicationsFooterSection() {
               <div className={styles.identityBlock}>
                 <p className={styles.greetLine}>
                   <span className={styles.greetDot} />
-                  {getGreeting()}
+                  {greeting}
                 </p>
                 <p className={styles.roleLabel}>{profile.roles.short}</p>
                 <h2 className={styles.nameHeading}>

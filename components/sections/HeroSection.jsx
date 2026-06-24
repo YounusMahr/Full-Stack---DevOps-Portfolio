@@ -102,7 +102,7 @@ export default function HeroSection() {
         <Image
           src={heroPic} alt={profile.name.full}
           fill priority quality={100}
-          sizes="(min-width: 768px) 55vw, 100vw"
+          sizes="(min-width: 1024px) 40vw, (min-width: 768px) 45vw, 100vw"
           className={styles.photoImg}
         />
       </div>
