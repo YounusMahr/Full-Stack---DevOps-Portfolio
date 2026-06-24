@@ -203,13 +203,20 @@
     overflow: hidden;
   }
   .photoCol {
+    height: 100%;
     padding: 3.5rem 1rem 0.5rem;
     flex-direction: row;
     align-items: flex-end;
     gap: 0.75rem;
     overflow: visible;
   }
-  .photoWrap    { flex: 1; max-height: 100%; align-self: stretch; height: 100%; }
+  .photoWrap {
+    flex: 1;
+    max-height: 100%;
+    align-self: stretch;
+    height: 100%;
+    width: auto;
+  }
   .socials      { flex-direction: column; margin-top: 0; gap: 0.4rem; }
   .socialLink   { width: 2rem; height: 2rem; font-size: 1rem; }
   .content      { padding: 1rem 1.25rem 0.75rem; overflow-y: auto; -webkit-overflow-scrolling: touch; }
